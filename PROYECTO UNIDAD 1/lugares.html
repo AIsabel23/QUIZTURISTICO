@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html long = "es">
+    <head> 
+        <title>EVENTOS</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+           
+        <div class="container"> <!-- Contenedor principal del contenido -->
+            <div class="card"> <!-- Contenedor de la pregunta actual -->
+                <h3 class="Categoria">LUGARES</h3> 
+                <div class="pregunta_contenido"> 
+                    <p class="pregunta_enunciado" id="pregunta"> </p>
+                    <!-- Enunciado de la pregunta que se reemplaza con JavaScript -->
+                    
+                    <div class="pregunta_alternativas"> <!-- Contenedor de las opciones de respuesta -->                         
+                        <button type="" class="botonRespuesta" id="opc1">Opción 1</button> <!-- opción 1 -->
+                        <button type="" class="botonRespuesta" id="opc2">Opción 2</button> <!-- opción 2 -->
+                        <button type="" class="botonRespuesta" id="opc3">Opción 3</button> <!-- opción 3 -->
+                                   
+                    </div>
+                </div>
+            </div>
+            <div class="avance"> <!-- Contenedor de la barra de progreso -->
+                <progress id="barra-progreso" class="barra_progreso" max="100" value="70"> 70% </progress> <!-- Barra de progreso -->
+            </div>
+            <div>
+                <a class="botonSiguiente" id="siguiente"
+                href="QuizTuriticoFin.html">Finalizar</a>
+            </div>
+
+        </div>
+      
+        <script type="text/javascript" src="js/Qlugares.js"></script>
+       
+    </body>
+</html>        
